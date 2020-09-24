@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="file.js"></script>
+    <title>Curso Básico HTML5</title>
+  </head>
+  <body>
+    <main>
+      <h1>Hola Mundo</h1>
+      <nav>
+        <ul>
+          <li><a href="#"> Menu item 1</a></li>
+          <li><a href="#"> Menu item 2</a></li>
+          <li><a href="#"> Menu item 3</a></li>
+        </ul>
+      </nav>
+      <article>
+        <h2>Mi Noticia</h2>
+        <p>Lorem, <strong>ipsum</strong> dolor sit amet consectetur adipisicing
+          elit. Natus, fugiat, temporibus eveniet consequuntur ratione fugit
+          provident dolores animi, optio deserunt iure similique doloremque eum?
+          Quibusdam explicabo adipisci temporibus consequatur ipsum?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus,
+          fugiat, temporibus eveniet consequuntur ratione fugit provident
+          dolores animi, optio deserunt iure similique doloremque eum? Quibusdam
+          explicabo adipisci temporibus consequatur ipsum?</p>
+        <figure>
+          <img src="pic.jpg" alt="A famous robot" width="700" height="470" />
+        </figure>
+      </article>
+      <form>
+        <h2>Mi Formulario</h2>
+        <fieldset>
+          <legend>Datos personales:</legend>
+          <div><label>Nombre</label><input type="text" /></div>
+          <div><label>Apellido</label><input type="text" /></div>
+          <div><label>Telefono</label><input type="tel" maxlength="9" /></div>
+          <div>
+            <label>DNI</label><input name="doc" value="dni" type="radio" />
+            <label>NIE</label><input name="doc" value="nie" type="radio" />
+          </div>
+          <div><label>Nº Documento</label><input number="text" /></div>
+        </fieldset>
+        <fieldset>
+          <legend>Otros datos:</legend>
+          <div><label>Número de harmanos/as</label><input type="number" /></div>
+          <ol>
+            <li>
+              <label>Cinquillo</label
+              ><input type="checkbox" name="sport" value="Cats" />
+            </li>
+            <li>
+              <label>Escoba</label
+              ><input type="checkbox" name="sport" value="Dogs" />
+            </li>
+            <li>
+              <label>Petanca</label
+              ><input type="checkbox" name="sport" value="Birds" />
+            </li>
+          </ol>
+          <br />
+        </fieldset>
+        <button type="reset">Reset Form</button>
+        <button type="submit">Enviar</button>
+      </form>
+
+      <table>
+        <caption>
+          Tablita molona
+        </caption>
+        <thead>
+            <tr>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Teléfono</th>
+            <th>DNI/NIE</th>
+            <th>Deportes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>Sara</td>
+            <td>Moza</td>
+            <td>666666666</td>
+            <td>1234567-M</td>
+            <td>Uno, Otro</td>
+            </tr>
+            <tr>
+            <td>Belen</td>
+            <td>Aliste</td>
+            <td>777777777</td>
+            <td>1234567-A</td>
+            <td>Este, Aquel</td>
+            </tr>
+        </tbody>
+      </table>
+    </main>
+  </body>
+</html>

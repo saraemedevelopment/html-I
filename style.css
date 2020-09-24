@@ -1,0 +1,11 @@
+.form {
+    display: block
+}
+
+.field {
+    margin: 3px;
+}
+
+input {
+    margin: 2px;
+}
